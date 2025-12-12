@@ -1,0 +1,14 @@
+inputSet:
+  name: Input1
+  identifier: Input1
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: pipeline1
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: main
